@@ -180,7 +180,7 @@ Functions are blocks of code that perform a specific task and can be reused. The
 Function that takes two arguments and returns their sum:
 
 python
-Copy code
+
 def add(a, b):
     return a + b
 
@@ -255,7 +255,7 @@ To read from a file, you typically use the open() function with the mode 'r' (re
 
 Example: Reading the entire file
 python
-Copy code
+
 # Open a file in read mode
 with open('example.txt', 'r') as file:
     # Read the entire content of the file
@@ -264,7 +264,7 @@ with open('example.txt', 'r') as file:
 print(content)
 Example: Reading line by line
 python
-Copy code
+
 # Open a file in read mode
 with open('example.txt', 'r') as file:
     # Read each line in the file
@@ -275,7 +275,7 @@ To write to a file, you use the open() function with the mode 'w' (write) or 'a'
 
 Example: Writing to a file (overwrite)
 python
-Copy code
+
 # Open a file in write mode
 with open('example.txt', 'w') as file:
     # Write some text to the file
@@ -283,7 +283,7 @@ with open('example.txt', 'w') as file:
     file.write('Writing to a file in Python is easy.\n')
 Example: Appending to a file
 python
-Copy code
+
 # Open a file in append mode
 with open('example.txt', 'a') as file:
     # Append some text to the file
